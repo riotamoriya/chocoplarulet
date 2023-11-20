@@ -17,19 +17,19 @@ export default IndexPage;
 
 export const Head = () => (
   <>
-    <title>狗巻棘確率機</title>
-    <meta name="description" content="狗巻棘確率機" />
+    <title>チョコプラ確率機</title>
+    <meta name="description" content="チョコプラ確率機" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     {/* Open Graph / Facebook */}
-    <meta property="og:title" content="狗巻棘確率機" />
-    <meta property="og:description" content="狗巻棘確率機" />
+    <meta property="og:title" content="チョコプラ確率機" />
+    <meta property="og:description" content="チョコプラ確率機" />
     <meta property="og:image" content="https://riotamoriya.github.io/inumakirulet/inumaki.jpg" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://riotamoriya.github.io/inumakirulet/" />
     {/* Twitter */}
-    <meta name="twitter:card" content="狗巻棘確率機" />
-    <meta name="twitter:title" content="狗巻棘確率機" />
-    <meta name="twitter:description" content="狗巻棘確率機" />
+    <meta name="twitter:card" content="チョコプラ確率機" />
+    <meta name="twitter:title" content="チョコプラ確率機" />
+    <meta name="twitter:description" content="チョコプラ確率機" />
     <meta name="twitter:image" content="https://riotamoriya.github.io/inumakirulet/inumaki.jpg" />
   </>
 );
