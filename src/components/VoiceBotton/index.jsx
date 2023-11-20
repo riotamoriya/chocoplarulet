@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import './style.css';
 
 
-const bingo_probability = 0.1;
+const bingo_probability = 0.4;
 
 
 
