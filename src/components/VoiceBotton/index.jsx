@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import './style.css';
 
+
+const bingo_probability = 0.5;
+
+
+
 const SoundButton = () => {
   const data = useStaticQuery(graphql`
     query fetchSounds {
@@ -64,7 +69,7 @@ const SoundButton = () => {
 
   // 音声を再生する関数
   const playSound = () => {
-    const isSpecial = Math.random() < 0.01;
+    const isSpecial = Math.random() < bingo_probability;
     if (isSpecial) {
       playRandomSound(buffers.specials);
     } else {
